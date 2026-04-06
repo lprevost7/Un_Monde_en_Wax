@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,31 +26,175 @@
             </div>
         </section>
 
-        <section class="content">
-            <div class="container">
-                <h2>À Propos de Nous</h2>
-                <p>
-                    Bienvenue chez Un Monde en Wax, votre destination pour des produits en cire premium et des créations artisanales de qualité supérieure.
-                    Nous nous engageons à vous fournir des produits durables et écologiques qui apportent chaleur et beauté à votre intérieur.
-                </p>
-                <p>
-                    Notre mission est de créer des produits exceptionnels 100% faits main. Chaque article est minutieusement élaboré avec une attention particulière aux détails et une passion pour l'excellence.
-                </p>
+        <!-- Fil d'or en zigzag -->
+        <svg class="gold-thread" viewBox="0 0 1200 3000" preserveAspectRatio="none">
+            <defs>
+                <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:0.8" />
+                    <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0.8" />
+                </linearGradient>
+            </defs>
+            <polyline points="600,0 100,600 1100,1200 100,1800 1100,2400 600,3000" 
+                      fill="none" stroke="url(#goldGradient)" stroke-width="8" stroke-linecap="round"/>
+        </svg>
 
-                <h3>Pourquoi Nous Choisir ?</h3>
-                <ul>
-                    <li><strong>Fait Main :</strong> Chaque création est confectionnée avec soin et passion par nos artisans</li>
-                    <li><strong>Qualité des Matériaux :</strong> Nous utilisons les meilleurs matériaux : fil Gutterman pour la couture et fermetures YKK pour la durabilité</li>
-                    <li>Produits durables et écologiques</li>
-                    <li>Service fiable et attentif</li>
-                </ul>
+        <!-- Bloc 1: Fait Main -->
+        <section class="content-block block-1">
+            <div class="container">
+                <div class="block-content">
+                    <div class="block-text">
+                        <h2>Fait Main</h2>
+                        <p>
+                            Chaque création est une œuvre d'art confectionnée avec soin et passion par nos artisans qualifiés. 
+                            Nous privilégions la qualité et l'unicité de chaque pièce.
+                        </p>
+                        <ul class="qualities-list">
+                            <li>✨ Artisans expérimentés</li>
+                            <li>✨ Création soignée</li>
+                            <li>✨ Attention aux détails</li>
+                            <li>✨ Passions innée</li>
+                        </ul>
+                    </div>
+                    <div class="block-image">
+                        <div class="placeholder-image">
+                            <span>🧵 Fait Main</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloc 2: Qualité des Matériaux -->
+        <section class="content-block block-2">
+            <div class="container">
+                <div class="block-content reverse">
+                    <div class="block-text">
+                        <h2>Qualité des Matériaux</h2>
+                        <p>
+                            Nous n'utilisons que les meilleurs matériaux pour garantir la qualité et la durabilité de nos produits.
+                        </p>
+                        <div class="materials-box">
+                            <div class="material-item">
+                                <h4>Fil Gutterman</h4>
+                                <p>Les meilleurs fils de couture pour une solidité garantie</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Fermetures YKK</h4>
+                                <p>Les fermetures premium les plus fiables au monde</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-image">
+                        <div class="placeholder-image">
+                            <span>🏆 Qualité Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloc 3: Articles & Créations Perso -->
+        <section class="content-block block-3">
+            <div class="container">
+                <div class="block-content">
+                    <div class="block-text">
+                        <h2>Nos Collections</h2>
+                        <p>
+                            Découvrez notre large gamme de produits et créez vos propres creations personnalisées!
+                        </p>
+                        <div class="options-box">
+                            <div class="option-item">
+                                <h4>📦 Articles Préfaits</h4>
+                                <p>Sélection d'articles de base prêts à l'emploi</p>
+                                <a href="public/command.html" class="btn-link">Voir la sélection →</a>
+                            </div>
+                            <div class="divider">ou</div>
+                            <div class="option-item">
+                                <h4>🎨 Créations Personnalisées</h4>
+                                <p>Demandez votre création sur mesure unique</p>
+                                <a href="public/contact.html" class="btn-link">Personnaliser →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-image">
+                        <div class="placeholder-image">
+                            <span>📦 Collections</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloc 4: Livraison -->
+        <section class="content-block block-4">
+            <div class="container">
+                <div class="block-content reverse">
+                    <div class="block-text">
+                        <h2>Livraison</h2>
+                        <p>
+                            Nous livrons rapidement et en toute sécurité dans toute l'Europe!
+                        </p>
+                        <div class="delivery-box">
+                            <div class="delivery-item">
+                                <span class="flag">🇫🇷</span>
+                                <h4>France</h4>
+                                <p>Livraison rapide partout en France métropolitaine</p>
+                            </div>
+                            <div class="delivery-item">
+                                <span class="flag">🇧🇪</span>
+                                <h4>Belgique</h4>
+                                <p>Livraison sécurisée en Belgique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-image">
+                        <div class="placeholder-image">
+                            <span>📮 Livraison</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloc 5: Contact -->
+        <section class="content-block block-5">
+            <div class="container">
+                <div class="block-content">
+                    <div class="block-text">
+                        <h2>Nous Contacter</h2>
+                        <p>
+                            Une question ? Un projet ? N'hésitez pas à nous contacter pour discuter de vos besoins!
+                        </p>
+                        <div class="contact-box">
+                            <div class="contact-item">
+                                <span class="icon">📧</span>
+                                <p>Envoyez-nous un email</p>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">💬</span>
+                                <p>Consultez notre formulaire de contact</p>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon">📱</span>
+                                <p>Contactez-nous directement</p>
+                            </div>
+                        </div>
+                        <a href="public/contact.html" class="btn">Accéder au formulaire de contact →</a>
+                    </div>
+                    <div class="block-image">
+                        <div class="placeholder-image">
+                            <span>📞 Contact</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Un Monde en Wax. All rights reserved.</p>
+            <p>&copy; 2026 Un Monde en Wax. Tous droits réservés.</p>
         </div>
     </footer>
 </body>
