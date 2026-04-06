@@ -61,13 +61,13 @@ body {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: #e8b4a8;
-    border-bottom-color: #e8b4a8;
+    color: #D4AF37;
+    border-bottom-color: #D4AF37;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+    background: linear-gradient(135deg, #003D82 0%, #004E99 100%);
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -95,7 +95,7 @@ body {
     font-size: 2rem;
     color: #2c3e50;
     margin-bottom: 1.5rem;
-    border-bottom: 3px solid #e8b4a8;
+    border-bottom: 3px solid #D4AF37;
     padding-bottom: 0.5rem;
     display: inline-block;
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .product-image {
-    background-color: #e8b4a8;
+    background-color: #D4AF37;
     height: 200px;
     display: flex;
     align-items: center;
@@ -174,13 +174,13 @@ body {
 .price {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #e8b4a8;
+    color: #D4AF37;
     margin: 1rem 0;
 }
 
 /* Buttons */
 .btn {
-    background-color: #e8b4a8;
+    background-color: #D4AF37;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -192,12 +192,18 @@ body {
 }
 
 .btn:hover {
-    background-color: #d49a8f;
+    background-color: #BE9F2B;
     transform: scale(1.05);
 }
 
 .btn:active {
     transform: scale(0.98);
+}
+
+/* Button in Hero Section */
+.hero .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
 }
 
 /* Contact Section */
@@ -212,7 +218,7 @@ body {
 .contact-form h2 {
     color: #2c3e50;
     margin-bottom: 1.5rem;
-    border-bottom: 3px solid #e8b4a8;
+    border-bottom: 3px solid #D4AF37;
     padding-bottom: 0.5rem;
     display: inline-block;
 }
@@ -232,7 +238,7 @@ body {
 }
 
 .info-item a {
-    color: #e8b4a8;
+    color: #D4AF37;
     text-decoration: none;
     font-weight: 500;
 }
@@ -267,8 +273,8 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #e8b4a8;
-    box-shadow: 0 0 5px rgba(232, 180, 168, 0.3);
+    border-color: #D4AF37;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
 }
 
 /* Footer */
